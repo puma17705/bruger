@@ -1,0 +1,45 @@
+.tekst{
+   margin: 0px; 
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #BBE3FC;
+    font-family: sans-serif;
+}
+
+.spremnik{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 500px;
+    margin: 20px; 
+}
+
+.spremnik .tenor-gif-embed {
+    max-width: 300px;
+}
+
+.spremnik .gumb{
+    display: flex;
+    gap: 25px;
+}
+
+.gumb a{
+    text-decoration: none;
+    color: black;
+    background: whitesmoke;
+    padding: 10px 25px;
+    broder-radius: 8px;
+    box-shadow: 0.5rem 1rem 3rem hsl(0, 0%, 0%, 0.3);
+    
+    
+}
